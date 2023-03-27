@@ -14,7 +14,7 @@ mmYear = Integer.parseInt(s);
 
 remainder=mmYear%7;
 System.out.println("The remainder"+"\t"+remainder);
-s= JOptionPane.showInputDialog("Your Day sign eg: Sun or Mon");
+Day= JOptionPane.showInputDialog("Your Day sign eg: Sun or Mon");
 
 if(remainder==0){
  System.out.println("0 3 6 2 5 1 4");
@@ -91,13 +91,13 @@ else if(Day.equals("Wed")){
 System.out.println("Thei");
 }
 else if(Day.equals("Thurs")){
-System.out.println();
+System.out.println("Ma Ya Na");
 }
 else if(Day.equals("Fri")){
-System.out.println("Yar Za");
+System.out.println("A Tun");
 }
 else if(Day.equals("Sat")){
-System.out.println("A Tun");
+System.out.println("Yar Za");
 }
 else{
 System.out.println("Sorry Try Agin");
@@ -105,15 +105,113 @@ System.out.println("Sorry Try Agin");
 }
 else if(remainder==3){
  System.out.println("3 6 2 5 1 4 0");
+if( Day.equals("Sun")){
+ System.out.println("Yar Za");
+}
+else if(Day.equals("Mon")){
+System.out.println("A Tun");
+}
+else if(Day.equals("Tue")){
+System.out.println("Bin Ga");
+}
+else if(Day.equals("Wed")){
+System.out.println("Pu Di");
+}
+else if(Day.equals("Thurs")){
+System.out.println("Thei");
+}
+else if(Day.equals("Fri")){
+System.out.println("Ma Ya Na");
+}
+else if(Day.equals("Sat")){
+System.out.println("A Di Pa Di");
+}
+else{
+System.out.println("Sorry Try Agin");
+
+}
 }
 else if(remainder==4){
 System.out.println("4 0 3 6 2 5 1");
+if( Day.equals("Sun")){
+ System.out.println("A Di Pa Di");
+}
+else if(Day.equals("Mon")){
+System.out.println("Yar Za");
+}
+else if(Day.equals("Tue")){
+System.out.println("A Tun");
+}
+else if(Day.equals("Wed")){
+System.out.println("Bin Ga");
+}
+else if(Day.equals("Thurs")){
+System.out.println("Pu Di");
+}
+else if(Day.equals("Fri")){
+System.out.println("Thei");
+}
+else if(Day.equals("Sat")){
+System.out.println("Ma Ya Na");
+}
+else{
+System.out.println("Sorry Try Agin");
+
+}
 }
 else if(remainder==5){
  System.out.println("5 1 4 0 3 6 2 ");
+if( Day.equals("Sun")){
+ System.out.println("Ma Ya Na");
+}
+else if(Day.equals("Mon")){
+System.out.println("A Di Pa Di");
+}
+else if(Day.equals("Tue")){
+System.out.println("Yar Za");
+}
+else if(Day.equals("Wed")){
+System.out.println("A Tun");
+}
+else if(Day.equals("Thurs")){
+System.out.println("Bin Ga");
+}
+else if(Day.equals("Fri")){
+System.out.println("Pu Di");
+}
+else if(Day.equals("Sat")){
+System.out.println("Thei");
+}
+else{
+System.out.println("Sorry Try Agin");
+}
 }
 else if(remainder==6){
 System.out.println("6 2 5 1 4 0 3");
+if( Day.equals("Sun")){
+ System.out.println("Thei");
+}
+else if(Day.equals("Mon")){
+System.out.println("Ma Ya Na");
+}
+else if(Day.equals("Tue")){
+System.out.println("A Di Pa Di");
+}
+else if(Day.equals("Wed")){
+System.out.println("Yar Za");
+}
+else if(Day.equals("Thurs")){
+System.out.println("A Tun");
+}
+else if(Day.equals("Fri")){
+System.out.println("Bin Ga");
+}
+else if(Day.equals("Sat")){
+System.out.println("Pu Di");
+}
+else{
+System.out.println("Sorry Try Agin");
+}
 }
 else{
 System.out.println("Your remainder is wrong");
